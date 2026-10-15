@@ -3,7 +3,7 @@
 Releases are cut by pushing a semver tag; GitHub Actions does the rest (`.github/workflows/release.yml`).
 
 1. Update `CHANGELOG.md` (move *Unreleased* to the new version) and merge to the default branch.
-2. Tag and push: `git tag v0.1.0 && git push origin v0.1.0` (use `v0.1.0-rc.1` to rehearse; pre-releases don't get `latest`/`X`/`X.Y` tags).
+2. Make sure the commit is on `main`, then tag and push: `git tag v0.1.0 && git push origin v0.1.0` (use `v0.1.0-rc.1` to rehearse; pre-releases don't get `latest`/`X`/`X.Y` tags). The workflow refuses tags that are not on `main`.
 3. The workflow:
    - builds `linux/amd64`, `linux/arm64`, `linux/arm/v7` and pushes `ghcr.io/<owner>/pihole-mcp` tagged `vX.Y.Z`, `X.Y`, `X`, `latest` (stable only) and `sha-<short>`, with provenance (`mode=max`), an SBOM and a build attestation;
    - runs GoReleaser to attach binaries (darwin/linux/windows × amd64/arm64, linux/armv7), checksums and a changelog to the GitHub Release.
