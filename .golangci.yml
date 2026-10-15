@@ -1,0 +1,16 @@
+version: "2"
+run:
+  timeout: 5m
+linters:
+  default: standard
+  enable:
+    - bodyclose
+    - misspell
+    - unconvert
+    - errname
+  settings:
+    misspell:
+      locale: US
+formatters:
+  enable:
+    - gofmt

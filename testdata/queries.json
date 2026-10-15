@@ -1,0 +1,6844 @@
+{
+ "queries": [
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "cdn.example.net",
+   "id": 360,
+   "list_id": null,
+   "reply": {
+    "time": 18.56,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759999917.9302385,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "cdn.example.net",
+   "id": 359,
+   "list_id": null,
+   "reply": {
+    "time": 15.99,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759999690.652978,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "cdn.example.net",
+   "id": 358,
+   "list_id": null,
+   "reply": {
+    "time": 18.65,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759999506.0701115,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "github.com",
+   "id": 357,
+   "list_id": null,
+   "reply": {
+    "time": 19.45,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759999466.9617865,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.10",
+    "name": "living-room-tv"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "github.com",
+   "id": 356,
+   "list_id": null,
+   "reply": {
+    "time": 12.2,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759999404.534591,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 355,
+   "list_id": 1,
+   "reply": {
+    "time": 19.37,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759999332.932119,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "cdn.example.net",
+   "id": 354,
+   "list_id": null,
+   "reply": {
+    "time": 12.4,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759999110.596147,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "cdn.example.net",
+   "id": 353,
+   "list_id": null,
+   "reply": {
+    "time": 16.46,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759998799.738488,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "metrics.example-analytics.com",
+   "id": 352,
+   "list_id": null,
+   "reply": {
+    "time": 7.44,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759998449.408995,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 351,
+   "list_id": 1,
+   "reply": {
+    "time": 15.98,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759998287.912587,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "metrics.example-analytics.com",
+   "id": 350,
+   "list_id": null,
+   "reply": {
+    "time": 15.73,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759998181.8226106,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "pixel.example-track.net",
+   "id": 349,
+   "list_id": 1,
+   "reply": {
+    "time": 10.43,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759997829.8289852,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 348,
+   "list_id": null,
+   "reply": {
+    "time": 8.28,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759997308.4127817,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 347,
+   "list_id": 1,
+   "reply": {
+    "time": 6.07,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759997019.5671213,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.10",
+    "name": "living-room-tv"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "api.example-cloud.com",
+   "id": 346,
+   "list_id": null,
+   "reply": {
+    "time": 12.22,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759996983.3554642,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 345,
+   "list_id": 1,
+   "reply": {
+    "time": 15.73,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759996299.0470424,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "metrics.example-analytics.com",
+   "id": 344,
+   "list_id": null,
+   "reply": {
+    "time": 12.51,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759995971.248013,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 343,
+   "list_id": 1,
+   "reply": {
+    "time": 0.41,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759995961.5194569,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 342,
+   "list_id": null,
+   "reply": {
+    "time": 1.27,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759995816.548045,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 341,
+   "list_id": 1,
+   "reply": {
+    "time": 3.11,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759995499.3266602,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "pixel.example-track.net",
+   "id": 340,
+   "list_id": 1,
+   "reply": {
+    "time": 8.73,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759995493.8543277,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.10",
+    "name": "living-room-tv"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "pixel.example-track.net",
+   "id": 339,
+   "list_id": 1,
+   "reply": {
+    "time": 4.81,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759995026.4181721,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "cdn.example.net",
+   "id": 338,
+   "list_id": null,
+   "reply": {
+    "time": 2.56,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759995013.3037822,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "metrics.example-analytics.com",
+   "id": 337,
+   "list_id": null,
+   "reply": {
+    "time": 7.8,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759994943.3242028,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 336,
+   "list_id": 1,
+   "reply": {
+    "time": 8.12,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759994691.554294,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "adserver.example.org",
+   "id": 335,
+   "list_id": 1,
+   "reply": {
+    "time": 5.32,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759994663.6415744,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "tracker.example-tracker.net",
+   "id": 334,
+   "list_id": 1,
+   "reply": {
+    "time": 17.81,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759994397.1406698,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "cdn.example.net",
+   "id": 333,
+   "list_id": null,
+   "reply": {
+    "time": 2.19,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759994277.2384362,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 332,
+   "list_id": null,
+   "reply": {
+    "time": 1.07,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759994239.4827366,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.10",
+    "name": "living-room-tv"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 331,
+   "list_id": 1,
+   "reply": {
+    "time": 7.31,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759993612.535882,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 330,
+   "list_id": 1,
+   "reply": {
+    "time": 6.2,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759993611.5161068,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "tracker.example-tracker.net",
+   "id": 329,
+   "list_id": 1,
+   "reply": {
+    "time": 6.42,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759993596.3680243,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "adserver.example.org",
+   "id": 328,
+   "list_id": 1,
+   "reply": {
+    "time": 9.83,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759992867.490823,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "metrics.example-analytics.com",
+   "id": 327,
+   "list_id": null,
+   "reply": {
+    "time": 2.84,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759992816.9741197,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 326,
+   "list_id": 1,
+   "reply": {
+    "time": 16.5,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759992782.522154,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 325,
+   "list_id": 1,
+   "reply": {
+    "time": 5.64,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759992683.3476415,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 324,
+   "list_id": 1,
+   "reply": {
+    "time": 17.79,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759992505.4513776,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 323,
+   "list_id": 1,
+   "reply": {
+    "time": 1.34,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759992482.1585667,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 322,
+   "list_id": null,
+   "reply": {
+    "time": 17.91,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759992400.1833441,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "pixel.example-track.net",
+   "id": 321,
+   "list_id": 1,
+   "reply": {
+    "time": 14.01,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759992279.9054635,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-tracker.net",
+   "id": 320,
+   "list_id": null,
+   "reply": {
+    "time": 9.16,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759991958.353784,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "pixel.example-track.net",
+   "id": 319,
+   "list_id": 1,
+   "reply": {
+    "time": 14.62,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759991918.1076887,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "pixel.example-track.net",
+   "id": 318,
+   "list_id": 1,
+   "reply": {
+    "time": 7.08,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759991812.83433,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-tracker.net",
+   "id": 317,
+   "list_id": null,
+   "reply": {
+    "time": 9.5,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759991377.2338662,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 316,
+   "list_id": null,
+   "reply": {
+    "time": 2.2,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759991113.4406269,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-tracker.net",
+   "id": 315,
+   "list_id": null,
+   "reply": {
+    "time": 6.23,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759991102.9698586,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 314,
+   "list_id": 1,
+   "reply": {
+    "time": 11.81,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759991050.0657654,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 313,
+   "list_id": 1,
+   "reply": {
+    "time": 13.38,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759990862.200785,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 312,
+   "list_id": 1,
+   "reply": {
+    "time": 2.03,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759990503.2500265,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "adserver.example.org",
+   "id": 311,
+   "list_id": null,
+   "reply": {
+    "time": 17.77,
+    "type": "IP"
+   },
+   "status": "DENYLIST",
+   "time": 1759989745.866752,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "adserver.example.org",
+   "id": 310,
+   "list_id": 1,
+   "reply": {
+    "time": 12.0,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759989497.3124948,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 309,
+   "list_id": null,
+   "reply": {
+    "time": 2.47,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759989355.955515,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 308,
+   "list_id": null,
+   "reply": {
+    "time": 14.41,
+    "type": "IP"
+   },
+   "status": "DENYLIST",
+   "time": 1759989161.313726,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "api.example-cloud.com",
+   "id": 307,
+   "list_id": null,
+   "reply": {
+    "time": 2.54,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759988810.1700037,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "metrics.example-analytics.com",
+   "id": 306,
+   "list_id": null,
+   "reply": {
+    "time": 5.75,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759988476.6315365,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "tracker.example-tracker.net",
+   "id": 305,
+   "list_id": 1,
+   "reply": {
+    "time": 9.45,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759988388.1213474,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 304,
+   "list_id": null,
+   "reply": {
+    "time": 17.12,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759988332.0837426,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 303,
+   "list_id": null,
+   "reply": {
+    "time": 19.05,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759988104.5240657,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "tracker.example-tracker.net",
+   "id": 302,
+   "list_id": 1,
+   "reply": {
+    "time": 9.53,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759988101.9102159,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "github.com",
+   "id": 301,
+   "list_id": null,
+   "reply": {
+    "time": 7.33,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759988012.2611153,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.10",
+    "name": "living-room-tv"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 300,
+   "list_id": null,
+   "reply": {
+    "time": 13.28,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759987673.4740984,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "pixel.example-track.net",
+   "id": 299,
+   "list_id": null,
+   "reply": {
+    "time": 0.43,
+    "type": "IP"
+   },
+   "status": "DENYLIST",
+   "time": 1759987228.3850791,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 298,
+   "list_id": 1,
+   "reply": {
+    "time": 8.0,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759987113.242396,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "cdn.example.net",
+   "id": 297,
+   "list_id": null,
+   "reply": {
+    "time": 2.05,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759986762.9909556,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 296,
+   "list_id": null,
+   "reply": {
+    "time": 2.97,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759986619.1509602,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "pixel.example-track.net",
+   "id": 295,
+   "list_id": 1,
+   "reply": {
+    "time": 11.72,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759986393.7656775,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-tracker.net",
+   "id": 294,
+   "list_id": null,
+   "reply": {
+    "time": 3.83,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759986033.0568225,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "metrics.example-analytics.com",
+   "id": 293,
+   "list_id": null,
+   "reply": {
+    "time": 3.22,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759985997.54336,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "metrics.example-analytics.com",
+   "id": 292,
+   "list_id": null,
+   "reply": {
+    "time": 0.68,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759985901.2031605,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "pixel.example-track.net",
+   "id": 291,
+   "list_id": 1,
+   "reply": {
+    "time": 18.43,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759985719.1899407,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 290,
+   "list_id": 1,
+   "reply": {
+    "time": 9.84,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759985577.981728,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "api.example-cloud.com",
+   "id": 289,
+   "list_id": null,
+   "reply": {
+    "time": 18.87,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759985243.3003492,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "cdn.example.net",
+   "id": 288,
+   "list_id": null,
+   "reply": {
+    "time": 4.68,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759984608.2644944,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "pixel.example-track.net",
+   "id": 287,
+   "list_id": 1,
+   "reply": {
+    "time": 5.98,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759984483.317094,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 286,
+   "list_id": 1,
+   "reply": {
+    "time": 6.37,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759984223.0899572,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 285,
+   "list_id": null,
+   "reply": {
+    "time": 10.37,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759984168.325982,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-tracker.net",
+   "id": 284,
+   "list_id": null,
+   "reply": {
+    "time": 5.59,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759984059.2939234,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "github.com",
+   "id": 283,
+   "list_id": null,
+   "reply": {
+    "time": 16.31,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759983811.9706924,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "metrics.example-analytics.com",
+   "id": 282,
+   "list_id": null,
+   "reply": {
+    "time": 17.91,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759983262.7095118,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "pixel.example-track.net",
+   "id": 281,
+   "list_id": 1,
+   "reply": {
+    "time": 14.15,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759982279.8015027,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "cdn.example.net",
+   "id": 280,
+   "list_id": null,
+   "reply": {
+    "time": 0.98,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759981778.2862084,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "cdn.example.net",
+   "id": 279,
+   "list_id": null,
+   "reply": {
+    "time": 16.52,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759981689.871743,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-tracker.net",
+   "id": 278,
+   "list_id": null,
+   "reply": {
+    "time": 11.65,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759981538.3451502,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "github.com",
+   "id": 277,
+   "list_id": null,
+   "reply": {
+    "time": 2.42,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759981498.3761063,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "github.com",
+   "id": 276,
+   "list_id": null,
+   "reply": {
+    "time": 0.76,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759981411.9998739,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "github.com",
+   "id": 275,
+   "list_id": null,
+   "reply": {
+    "time": 2.77,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759981349.03087,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 274,
+   "list_id": null,
+   "reply": {
+    "time": 1.78,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759981263.9097946,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 273,
+   "list_id": 1,
+   "reply": {
+    "time": 8.04,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759980975.7821562,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "api.example-cloud.com",
+   "id": 272,
+   "list_id": null,
+   "reply": {
+    "time": 12.57,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759980961.0842896,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 271,
+   "list_id": null,
+   "reply": {
+    "time": 19.08,
+    "type": "IP"
+   },
+   "status": "DENYLIST",
+   "time": 1759980947.1167054,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "metrics.example-analytics.com",
+   "id": 270,
+   "list_id": null,
+   "reply": {
+    "time": 9.49,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759980781.5958703,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 269,
+   "list_id": 1,
+   "reply": {
+    "time": 17.7,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759980488.5116324,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 268,
+   "list_id": 1,
+   "reply": {
+    "time": 10.22,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759980422.265728,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.10",
+    "name": "living-room-tv"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 267,
+   "list_id": 1,
+   "reply": {
+    "time": 9.7,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759980110.233336,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 266,
+   "list_id": 1,
+   "reply": {
+    "time": 0.19,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759980048.4269998,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.10",
+    "name": "living-room-tv"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-tracker.net",
+   "id": 265,
+   "list_id": null,
+   "reply": {
+    "time": 19.24,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759980020.4216983,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-tracker.net",
+   "id": 264,
+   "list_id": null,
+   "reply": {
+    "time": 7.32,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759979697.643458,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 263,
+   "list_id": 1,
+   "reply": {
+    "time": 2.81,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759979687.6682427,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 262,
+   "list_id": 1,
+   "reply": {
+    "time": 14.46,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759979678.9747674,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "tracker.example-tracker.net",
+   "id": 261,
+   "list_id": 1,
+   "reply": {
+    "time": 2.04,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759979586.4124172,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "github.com",
+   "id": 260,
+   "list_id": null,
+   "reply": {
+    "time": 12.42,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759978933.8565876,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 259,
+   "list_id": null,
+   "reply": {
+    "time": 16.24,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759978752.5006049,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 258,
+   "list_id": null,
+   "reply": {
+    "time": 12.7,
+    "type": "IP"
+   },
+   "status": "DENYLIST",
+   "time": 1759978402.018509,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "metrics.example-analytics.com",
+   "id": 257,
+   "list_id": null,
+   "reply": {
+    "time": 4.42,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759978299.7210793,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 256,
+   "list_id": null,
+   "reply": {
+    "time": 18.72,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759978231.1855123,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "pixel.example-track.net",
+   "id": 255,
+   "list_id": 1,
+   "reply": {
+    "time": 9.12,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759977947.109238,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 254,
+   "list_id": 1,
+   "reply": {
+    "time": 2.13,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759977456.0269024,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 253,
+   "list_id": 1,
+   "reply": {
+    "time": 0.74,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759977147.1812983,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 252,
+   "list_id": 1,
+   "reply": {
+    "time": 12.52,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759977050.0637672,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "adserver.example.org",
+   "id": 251,
+   "list_id": 1,
+   "reply": {
+    "time": 1.75,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759976921.0792668,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "cdn.example.net",
+   "id": 250,
+   "list_id": null,
+   "reply": {
+    "time": 19.89,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759976623.803679,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.10",
+    "name": "living-room-tv"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "github.com",
+   "id": 249,
+   "list_id": null,
+   "reply": {
+    "time": 11.49,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759976378.2440965,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 248,
+   "list_id": 1,
+   "reply": {
+    "time": 0.21,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759975946.3280535,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "tracker.example-tracker.net",
+   "id": 247,
+   "list_id": 1,
+   "reply": {
+    "time": 15.98,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759975576.8054366,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 246,
+   "list_id": 1,
+   "reply": {
+    "time": 0.73,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759975554.9857135,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.10",
+    "name": "living-room-tv"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 245,
+   "list_id": 1,
+   "reply": {
+    "time": 1.26,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759975316.5477445,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 244,
+   "list_id": 1,
+   "reply": {
+    "time": 16.12,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759975148.0921884,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 243,
+   "list_id": 1,
+   "reply": {
+    "time": 12.74,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759974370.8373318,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-tracker.net",
+   "id": 242,
+   "list_id": null,
+   "reply": {
+    "time": 14.8,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759974362.818333,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 241,
+   "list_id": 1,
+   "reply": {
+    "time": 3.86,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759974288.9195063,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 240,
+   "list_id": 1,
+   "reply": {
+    "time": 12.16,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759974085.1995182,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 239,
+   "list_id": 1,
+   "reply": {
+    "time": 1.82,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759973598.776238,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 238,
+   "list_id": null,
+   "reply": {
+    "time": 0.55,
+    "type": "IP"
+   },
+   "status": "DENYLIST",
+   "time": 1759973596.378202,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 237,
+   "list_id": null,
+   "reply": {
+    "time": 10.62,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759973494.6286712,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 236,
+   "list_id": 1,
+   "reply": {
+    "time": 5.22,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759973072.336516,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 235,
+   "list_id": 1,
+   "reply": {
+    "time": 9.21,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759973042.6499324,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 234,
+   "list_id": 1,
+   "reply": {
+    "time": 14.2,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759972633.4984753,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "tracker.example-tracker.net",
+   "id": 233,
+   "list_id": null,
+   "reply": {
+    "time": 10.28,
+    "type": "IP"
+   },
+   "status": "DENYLIST",
+   "time": 1759972404.1838026,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "github.com",
+   "id": 232,
+   "list_id": null,
+   "reply": {
+    "time": 1.38,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759972152.9294188,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 231,
+   "list_id": null,
+   "reply": {
+    "time": 6.77,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759971975.6252778,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 230,
+   "list_id": null,
+   "reply": {
+    "time": 3.32,
+    "type": "IP"
+   },
+   "status": "DENYLIST",
+   "time": 1759971797.2315276,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "github.com",
+   "id": 229,
+   "list_id": null,
+   "reply": {
+    "time": 16.65,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759971736.3427045,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 228,
+   "list_id": null,
+   "reply": {
+    "time": 2.18,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759970916.889334,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "nxdomain.example.org",
+   "id": 227,
+   "list_id": null,
+   "reply": {
+    "time": 18.82,
+    "type": "NXDOMAIN"
+   },
+   "status": "CACHE",
+   "time": 1759970879.9417136,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "cdn.example.net",
+   "id": 226,
+   "list_id": null,
+   "reply": {
+    "time": 1.13,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759970669.910396,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "nxdomain.example.org",
+   "id": 225,
+   "list_id": null,
+   "reply": {
+    "time": 10.31,
+    "type": "NXDOMAIN"
+   },
+   "status": "CACHE",
+   "time": 1759970618.431522,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 224,
+   "list_id": null,
+   "reply": {
+    "time": 4.54,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759970077.925161,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "tracker.example-tracker.net",
+   "id": 223,
+   "list_id": null,
+   "reply": {
+    "time": 5.31,
+    "type": "IP"
+   },
+   "status": "DENYLIST",
+   "time": 1759969983.1047795,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-tracker.net",
+   "id": 222,
+   "list_id": null,
+   "reply": {
+    "time": 12.74,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759969802.041862,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "pixel.example-track.net",
+   "id": 221,
+   "list_id": null,
+   "reply": {
+    "time": 11.88,
+    "type": "IP"
+   },
+   "status": "DENYLIST",
+   "time": 1759969325.1268804,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "cdn.example.net",
+   "id": 220,
+   "list_id": null,
+   "reply": {
+    "time": 4.24,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759969292.307751,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "pixel.example-track.net",
+   "id": 219,
+   "list_id": 1,
+   "reply": {
+    "time": 19.5,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759968980.1892734,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 218,
+   "list_id": null,
+   "reply": {
+    "time": 6.11,
+    "type": "IP"
+   },
+   "status": "DENYLIST",
+   "time": 1759968922.2875228,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "pixel.example-track.net",
+   "id": 217,
+   "list_id": 1,
+   "reply": {
+    "time": 2.1,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759968789.911742,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 216,
+   "list_id": null,
+   "reply": {
+    "time": 5.4,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759968674.3254778,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 215,
+   "list_id": null,
+   "reply": {
+    "time": 5.79,
+    "type": "IP"
+   },
+   "status": "DENYLIST",
+   "time": 1759968657.097565,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "pixel.example-track.net",
+   "id": 214,
+   "list_id": 1,
+   "reply": {
+    "time": 16.86,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759968434.7155285,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "github.com",
+   "id": 213,
+   "list_id": null,
+   "reply": {
+    "time": 4.94,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759968174.2347682,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "pixel.example-track.net",
+   "id": 212,
+   "list_id": 1,
+   "reply": {
+    "time": 6.42,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759967864.8654718,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 211,
+   "list_id": 1,
+   "reply": {
+    "time": 12.04,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759967682.6848218,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "pixel.example-track.net",
+   "id": 210,
+   "list_id": 1,
+   "reply": {
+    "time": 5.86,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759966966.8267248,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "metrics.example-analytics.com",
+   "id": 209,
+   "list_id": null,
+   "reply": {
+    "time": 7.89,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759966906.6297762,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "cdn.example.net",
+   "id": 208,
+   "list_id": null,
+   "reply": {
+    "time": 5.5,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759966881.8965373,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 207,
+   "list_id": 1,
+   "reply": {
+    "time": 12.42,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759966656.6928868,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "cdn.example.net",
+   "id": 206,
+   "list_id": null,
+   "reply": {
+    "time": 0.64,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759966642.052661,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 205,
+   "list_id": 1,
+   "reply": {
+    "time": 13.3,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759966439.055401,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "github.com",
+   "id": 204,
+   "list_id": null,
+   "reply": {
+    "time": 4.91,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759965818.2474291,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 203,
+   "list_id": 1,
+   "reply": {
+    "time": 11.08,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759965429.2659876,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "adserver.example.org",
+   "id": 202,
+   "list_id": 1,
+   "reply": {
+    "time": 16.99,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759964493.8197773,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 201,
+   "list_id": 1,
+   "reply": {
+    "time": 2.14,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759964050.637981,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "pixel.example-track.net",
+   "id": 200,
+   "list_id": 1,
+   "reply": {
+    "time": 13.4,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759964041.1370409,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "cdn.example.net",
+   "id": 199,
+   "list_id": null,
+   "reply": {
+    "time": 10.93,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759964012.0878472,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 198,
+   "list_id": 1,
+   "reply": {
+    "time": 14.78,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759963667.5177686,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "cdn.example.net",
+   "id": 197,
+   "list_id": null,
+   "reply": {
+    "time": 0.9,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759962987.6926856,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "github.com",
+   "id": 196,
+   "list_id": null,
+   "reply": {
+    "time": 1.03,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759962808.4178455,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "adserver.example.org",
+   "id": 195,
+   "list_id": 1,
+   "reply": {
+    "time": 5.36,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759962807.3215258,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "pixel.example-track.net",
+   "id": 194,
+   "list_id": 1,
+   "reply": {
+    "time": 19.41,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759962423.7548509,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 193,
+   "list_id": null,
+   "reply": {
+    "time": 12.86,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759962281.616974,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.10",
+    "name": "living-room-tv"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 192,
+   "list_id": null,
+   "reply": {
+    "time": 7.82,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759962266.2476149,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "cdn.example.net",
+   "id": 191,
+   "list_id": null,
+   "reply": {
+    "time": 8.26,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759962238.0309813,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "metrics.example-analytics.com",
+   "id": 190,
+   "list_id": null,
+   "reply": {
+    "time": 7.8,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759961952.0649774,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 189,
+   "list_id": 1,
+   "reply": {
+    "time": 13.02,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759961617.6218474,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 188,
+   "list_id": null,
+   "reply": {
+    "time": 6.52,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759961541.7636797,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 187,
+   "list_id": 1,
+   "reply": {
+    "time": 8.84,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759961468.6398094,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "tracker.example-tracker.net",
+   "id": 186,
+   "list_id": 1,
+   "reply": {
+    "time": 12.07,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759961115.1418126,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 185,
+   "list_id": 1,
+   "reply": {
+    "time": 8.38,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759961036.3749578,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 184,
+   "list_id": 1,
+   "reply": {
+    "time": 10.62,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759961006.6927927,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "api.example-cloud.com",
+   "id": 183,
+   "list_id": null,
+   "reply": {
+    "time": 13.05,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759960777.4412801,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 182,
+   "list_id": 1,
+   "reply": {
+    "time": 0.41,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759960351.0342407,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "pixel.example-track.net",
+   "id": 181,
+   "list_id": 1,
+   "reply": {
+    "time": 16.56,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759960204.0570629,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "adserver.example.org",
+   "id": 180,
+   "list_id": 1,
+   "reply": {
+    "time": 6.21,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759960134.4689655,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-tracker.net",
+   "id": 179,
+   "list_id": null,
+   "reply": {
+    "time": 4.99,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759959804.3082116,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "api.example-cloud.com",
+   "id": 178,
+   "list_id": null,
+   "reply": {
+    "time": 17.7,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759959649.1941152,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 177,
+   "list_id": 1,
+   "reply": {
+    "time": 14.65,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759959565.0656953,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 176,
+   "list_id": null,
+   "reply": {
+    "time": 6.71,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759959367.182958,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "cdn.example.net",
+   "id": 175,
+   "list_id": null,
+   "reply": {
+    "time": 0.35,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759959089.9362543,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 174,
+   "list_id": 1,
+   "reply": {
+    "time": 0.6,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759959057.8171537,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-tracker.net",
+   "id": 173,
+   "list_id": null,
+   "reply": {
+    "time": 4.43,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759958961.74712,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.10",
+    "name": "living-room-tv"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 172,
+   "list_id": 1,
+   "reply": {
+    "time": 9.93,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759958817.3501785,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "github.com",
+   "id": 171,
+   "list_id": null,
+   "reply": {
+    "time": 1.46,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759958524.2406387,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 170,
+   "list_id": null,
+   "reply": {
+    "time": 14.43,
+    "type": "IP"
+   },
+   "status": "DENYLIST",
+   "time": 1759958458.297406,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 169,
+   "list_id": null,
+   "reply": {
+    "time": 6.76,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759958191.3659525,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 168,
+   "list_id": 1,
+   "reply": {
+    "time": 12.75,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759957955.4284933,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "tracker.example-tracker.net",
+   "id": 167,
+   "list_id": 1,
+   "reply": {
+    "time": 1.07,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759957915.8476307,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "tracker.example-tracker.net",
+   "id": 166,
+   "list_id": 1,
+   "reply": {
+    "time": 12.56,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759957661.4775383,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "api.example-cloud.com",
+   "id": 165,
+   "list_id": null,
+   "reply": {
+    "time": 15.47,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759957560.438798,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 164,
+   "list_id": 1,
+   "reply": {
+    "time": 2.1,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759957243.4265542,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "cdn.example.net",
+   "id": 163,
+   "list_id": null,
+   "reply": {
+    "time": 5.68,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759957193.4941907,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "metrics.example-analytics.com",
+   "id": 162,
+   "list_id": null,
+   "reply": {
+    "time": 12.02,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759957097.3887072,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "cdn.example.net",
+   "id": 161,
+   "list_id": null,
+   "reply": {
+    "time": 15.68,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759956975.460781,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "tracker.example-tracker.net",
+   "id": 160,
+   "list_id": 1,
+   "reply": {
+    "time": 9.68,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759956627.0939758,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-tracker.net",
+   "id": 159,
+   "list_id": null,
+   "reply": {
+    "time": 14.44,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759956357.9461653,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "cdn.example.net",
+   "id": 158,
+   "list_id": null,
+   "reply": {
+    "time": 2.79,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759956315.4499605,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "github.com",
+   "id": 157,
+   "list_id": null,
+   "reply": {
+    "time": 11.49,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759955612.4981458,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "github.com",
+   "id": 156,
+   "list_id": null,
+   "reply": {
+    "time": 18.53,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759955602.1200414,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "metrics.example-analytics.com",
+   "id": 155,
+   "list_id": null,
+   "reply": {
+    "time": 19.08,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759955498.334971,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 154,
+   "list_id": null,
+   "reply": {
+    "time": 7.37,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759955120.3192878,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 153,
+   "list_id": 1,
+   "reply": {
+    "time": 13.84,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759955031.478622,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "adserver.example.org",
+   "id": 152,
+   "list_id": 1,
+   "reply": {
+    "time": 11.32,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759954487.0481172,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "tracker.example-tracker.net",
+   "id": 151,
+   "list_id": 1,
+   "reply": {
+    "time": 12.65,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759953617.422136,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "adserver.example.org",
+   "id": 150,
+   "list_id": 1,
+   "reply": {
+    "time": 14.08,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759953443.230454,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "api.example-cloud.com",
+   "id": 149,
+   "list_id": null,
+   "reply": {
+    "time": 7.64,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759953348.2524576,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "cdn.example.net",
+   "id": 148,
+   "list_id": null,
+   "reply": {
+    "time": 15.8,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759953336.9896035,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 147,
+   "list_id": null,
+   "reply": {
+    "time": 16.08,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759953196.3086991,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 146,
+   "list_id": 1,
+   "reply": {
+    "time": 2.98,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759952900.5172174,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "api.example-cloud.com",
+   "id": 145,
+   "list_id": null,
+   "reply": {
+    "time": 10.43,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759952784.4530387,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 144,
+   "list_id": null,
+   "reply": {
+    "time": 12.19,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759952705.0285294,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "metrics.example-analytics.com",
+   "id": 143,
+   "list_id": null,
+   "reply": {
+    "time": 9.4,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759952147.102157,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "pixel.example-track.net",
+   "id": 142,
+   "list_id": 1,
+   "reply": {
+    "time": 10.2,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759952056.4419672,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "github.com",
+   "id": 141,
+   "list_id": null,
+   "reply": {
+    "time": 15.29,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759951582.3602514,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 140,
+   "list_id": 1,
+   "reply": {
+    "time": 18.02,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759951188.2631955,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 139,
+   "list_id": null,
+   "reply": {
+    "time": 3.22,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759951147.1820965,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "tracker.example-tracker.net",
+   "id": 138,
+   "list_id": 1,
+   "reply": {
+    "time": 9.27,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759950914.3716683,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "adserver.example.org",
+   "id": 137,
+   "list_id": 1,
+   "reply": {
+    "time": 6.95,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759950627.2522578,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "api.example-cloud.com",
+   "id": 136,
+   "list_id": null,
+   "reply": {
+    "time": 2.3,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759950547.7848694,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 135,
+   "list_id": 1,
+   "reply": {
+    "time": 0.52,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759950413.7842429,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 134,
+   "list_id": null,
+   "reply": {
+    "time": 8.85,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759950314.984983,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 133,
+   "list_id": 1,
+   "reply": {
+    "time": 18.63,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759949905.750184,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 132,
+   "list_id": null,
+   "reply": {
+    "time": 19.34,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759949644.8048136,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "api.example-cloud.com",
+   "id": 131,
+   "list_id": null,
+   "reply": {
+    "time": 10.25,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759949564.623927,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "metrics.example-analytics.com",
+   "id": 130,
+   "list_id": null,
+   "reply": {
+    "time": 16.3,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759949279.913544,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 129,
+   "list_id": 1,
+   "reply": {
+    "time": 9.56,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759949014.7501404,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "pixel.example-track.net",
+   "id": 128,
+   "list_id": 1,
+   "reply": {
+    "time": 3.37,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759948816.4813132,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "cdn.example.net",
+   "id": 127,
+   "list_id": null,
+   "reply": {
+    "time": 1.29,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759948602.2473075,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 126,
+   "list_id": 1,
+   "reply": {
+    "time": 6.28,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759948387.7120347,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "metrics.example-analytics.com",
+   "id": 125,
+   "list_id": null,
+   "reply": {
+    "time": 9.83,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759948288.0035906,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 124,
+   "list_id": 1,
+   "reply": {
+    "time": 5.09,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759948102.2065861,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.10",
+    "name": "living-room-tv"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "cdn.example.net",
+   "id": 123,
+   "list_id": null,
+   "reply": {
+    "time": 11.13,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759947947.2210817,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "pixel.example-track.net",
+   "id": 122,
+   "list_id": 1,
+   "reply": {
+    "time": 12.66,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759947898.9369347,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 121,
+   "list_id": null,
+   "reply": {
+    "time": 6.24,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759947544.4318366,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 120,
+   "list_id": null,
+   "reply": {
+    "time": 4.38,
+    "type": "IP"
+   },
+   "status": "DENYLIST",
+   "time": 1759947449.5270765,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "pixel.example-track.net",
+   "id": 119,
+   "list_id": null,
+   "reply": {
+    "time": 14.9,
+    "type": "IP"
+   },
+   "status": "DENYLIST",
+   "time": 1759947345.8918417,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "cdn.example.net",
+   "id": 118,
+   "list_id": null,
+   "reply": {
+    "time": 7.74,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759946902.0141304,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "api.example-cloud.com",
+   "id": 117,
+   "list_id": null,
+   "reply": {
+    "time": 16.74,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759946896.9818819,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 116,
+   "list_id": null,
+   "reply": {
+    "time": 18.03,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759946860.0058765,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "metrics.example-analytics.com",
+   "id": 115,
+   "list_id": null,
+   "reply": {
+    "time": 11.41,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759946732.9191716,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "api.example-cloud.com",
+   "id": 114,
+   "list_id": null,
+   "reply": {
+    "time": 11.15,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759946698.3008363,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-tracker.net",
+   "id": 113,
+   "list_id": null,
+   "reply": {
+    "time": 15.46,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759946697.364727,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "pixel.example-track.net",
+   "id": 112,
+   "list_id": 1,
+   "reply": {
+    "time": 2.76,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759946340.5713398,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 111,
+   "list_id": 1,
+   "reply": {
+    "time": 4.08,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759945777.5890915,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "adserver.example.org",
+   "id": 110,
+   "list_id": 1,
+   "reply": {
+    "time": 10.97,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759945770.2943423,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "metrics.example-analytics.com",
+   "id": 109,
+   "list_id": null,
+   "reply": {
+    "time": 19.93,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759945666.8642464,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.10",
+    "name": "living-room-tv"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "cdn.example.net",
+   "id": 108,
+   "list_id": null,
+   "reply": {
+    "time": 7.61,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759945507.682723,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 107,
+   "list_id": null,
+   "reply": {
+    "time": 4.7,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759945304.8912625,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 106,
+   "list_id": 1,
+   "reply": {
+    "time": 2.64,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759945193.8955424,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 105,
+   "list_id": 1,
+   "reply": {
+    "time": 5.42,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759945118.1556864,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 104,
+   "list_id": 1,
+   "reply": {
+    "time": 11.6,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759944819.674884,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "pixel.example-track.net",
+   "id": 103,
+   "list_id": 1,
+   "reply": {
+    "time": 0.14,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759944817.3963583,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "metrics.example-analytics.com",
+   "id": 102,
+   "list_id": null,
+   "reply": {
+    "time": 2.62,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759944808.8781688,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 101,
+   "list_id": null,
+   "reply": {
+    "time": 17.17,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759944421.0196574,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "github.com",
+   "id": 100,
+   "list_id": null,
+   "reply": {
+    "time": 12.62,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759943875.8119624,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 99,
+   "list_id": null,
+   "reply": {
+    "time": 5.61,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759943835.8542552,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 98,
+   "list_id": 1,
+   "reply": {
+    "time": 12.94,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759943576.587427,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 97,
+   "list_id": null,
+   "reply": {
+    "time": 17.77,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759943294.5459063,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "cdn.example.net",
+   "id": 96,
+   "list_id": null,
+   "reply": {
+    "time": 15.52,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759942252.6085546,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "pixel.example-track.net",
+   "id": 95,
+   "list_id": 1,
+   "reply": {
+    "time": 10.53,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759941875.8322446,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 94,
+   "list_id": 1,
+   "reply": {
+    "time": 14.34,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759941717.8695261,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "pixel.example-track.net",
+   "id": 93,
+   "list_id": 1,
+   "reply": {
+    "time": 19.27,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759941369.8188307,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-tracker.net",
+   "id": 92,
+   "list_id": null,
+   "reply": {
+    "time": 5.87,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759941181.040362,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.10",
+    "name": "living-room-tv"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "metrics.example-analytics.com",
+   "id": 91,
+   "list_id": null,
+   "reply": {
+    "time": 2.36,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759941111.9801748,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "cdn.example.net",
+   "id": 90,
+   "list_id": null,
+   "reply": {
+    "time": 3.09,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759941096.109046,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.10",
+    "name": "living-room-tv"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 89,
+   "list_id": null,
+   "reply": {
+    "time": 2.74,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759941065.2778392,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-tracker.net",
+   "id": 88,
+   "list_id": null,
+   "reply": {
+    "time": 18.33,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759941030.3868484,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 87,
+   "list_id": 1,
+   "reply": {
+    "time": 1.0,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759940856.1874104,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "github.com",
+   "id": 86,
+   "list_id": null,
+   "reply": {
+    "time": 12.52,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759940776.627767,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 85,
+   "list_id": 1,
+   "reply": {
+    "time": 18.08,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759940701.1526718,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 84,
+   "list_id": 1,
+   "reply": {
+    "time": 18.25,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759940673.759993,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 83,
+   "list_id": 1,
+   "reply": {
+    "time": 7.05,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759940659.288063,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "cdn.example.net",
+   "id": 82,
+   "list_id": null,
+   "reply": {
+    "time": 5.23,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759940632.9966104,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "adserver.example.org",
+   "id": 81,
+   "list_id": 1,
+   "reply": {
+    "time": 8.36,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759940463.9943058,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "api.example-cloud.com",
+   "id": 80,
+   "list_id": null,
+   "reply": {
+    "time": 0.03,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759939998.7768617,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "pixel.example-track.net",
+   "id": 79,
+   "list_id": 1,
+   "reply": {
+    "time": 17.9,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759939873.8456056,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 78,
+   "list_id": null,
+   "reply": {
+    "time": 8.01,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759939872.8105295,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "adserver.example.org",
+   "id": 77,
+   "list_id": 1,
+   "reply": {
+    "time": 7.1,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759939684.536152,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 76,
+   "list_id": 1,
+   "reply": {
+    "time": 10.15,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759939383.6965637,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "github.com",
+   "id": 75,
+   "list_id": null,
+   "reply": {
+    "time": 5.14,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759939116.9200766,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 74,
+   "list_id": null,
+   "reply": {
+    "time": 7.97,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759938633.9525042,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 73,
+   "list_id": null,
+   "reply": {
+    "time": 5.11,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759938050.2817461,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 72,
+   "list_id": null,
+   "reply": {
+    "time": 7.99,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759937949.2181368,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "github.com",
+   "id": 71,
+   "list_id": null,
+   "reply": {
+    "time": 18.25,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759937742.5541255,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 70,
+   "list_id": 1,
+   "reply": {
+    "time": 12.64,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759937650.6306677,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "adserver.example.org",
+   "id": 69,
+   "list_id": 1,
+   "reply": {
+    "time": 18.9,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759937424.7862422,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "api.example-cloud.com",
+   "id": 68,
+   "list_id": null,
+   "reply": {
+    "time": 16.89,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759937298.0063493,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 67,
+   "list_id": 1,
+   "reply": {
+    "time": 15.1,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759936577.1447976,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "cdn.example.net",
+   "id": 66,
+   "list_id": null,
+   "reply": {
+    "time": 13.84,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759936266.6720016,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 65,
+   "list_id": null,
+   "reply": {
+    "time": 9.68,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759935968.4659894,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-tracker.net",
+   "id": 64,
+   "list_id": null,
+   "reply": {
+    "time": 15.74,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759935677.6971583,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "pixel.example-track.net",
+   "id": 63,
+   "list_id": 1,
+   "reply": {
+    "time": 0.88,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759935341.9035034,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 62,
+   "list_id": 1,
+   "reply": {
+    "time": 2.2,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759935244.7615113,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 61,
+   "list_id": null,
+   "reply": {
+    "time": 10.3,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759935115.9572067,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 60,
+   "list_id": null,
+   "reply": {
+    "time": 12.33,
+    "type": "IP"
+   },
+   "status": "DENYLIST",
+   "time": 1759934294.61174,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 59,
+   "list_id": null,
+   "reply": {
+    "time": 11.84,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759934114.4801075,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "github.com",
+   "id": 58,
+   "list_id": null,
+   "reply": {
+    "time": 12.38,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759933935.0233753,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "github.com",
+   "id": 57,
+   "list_id": null,
+   "reply": {
+    "time": 6.9,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759933913.8729646,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "cdn.example.net",
+   "id": 56,
+   "list_id": null,
+   "reply": {
+    "time": 0.32,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759933832.8129053,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "github.com",
+   "id": 55,
+   "list_id": null,
+   "reply": {
+    "time": 3.24,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759933820.347945,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "cdn.example.net",
+   "id": 54,
+   "list_id": null,
+   "reply": {
+    "time": 5.54,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759933677.1994033,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 53,
+   "list_id": 1,
+   "reply": {
+    "time": 9.5,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759933663.1894565,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 52,
+   "list_id": 1,
+   "reply": {
+    "time": 3.19,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759933552.4483435,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 51,
+   "list_id": null,
+   "reply": {
+    "time": 4.72,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759933431.2603686,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-tracker.net",
+   "id": 50,
+   "list_id": null,
+   "reply": {
+    "time": 17.53,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759933388.6992178,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-tracker.net",
+   "id": 49,
+   "list_id": null,
+   "reply": {
+    "time": 7.3,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759933258.1126776,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 48,
+   "list_id": 1,
+   "reply": {
+    "time": 7.93,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759932773.9696057,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 47,
+   "list_id": null,
+   "reply": {
+    "time": 16.24,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759932703.7338521,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 46,
+   "list_id": 1,
+   "reply": {
+    "time": 13.37,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759932641.8950377,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.10",
+    "name": "living-room-tv"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 45,
+   "list_id": null,
+   "reply": {
+    "time": 14.8,
+    "type": "IP"
+   },
+   "status": "DENYLIST",
+   "time": 1759932374.6549664,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "github.com",
+   "id": 44,
+   "list_id": null,
+   "reply": {
+    "time": 15.34,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759932237.4658976,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "metrics.example-analytics.com",
+   "id": 43,
+   "list_id": null,
+   "reply": {
+    "time": 9.14,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759931885.8471594,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "pixel.example-track.net",
+   "id": 42,
+   "list_id": 1,
+   "reply": {
+    "time": 10.44,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759931647.885094,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "adserver.example.org",
+   "id": 41,
+   "list_id": null,
+   "reply": {
+    "time": 18.57,
+    "type": "IP"
+   },
+   "status": "DENYLIST",
+   "time": 1759931358.295617,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 40,
+   "list_id": null,
+   "reply": {
+    "time": 5.04,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759930998.7367883,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 39,
+   "list_id": null,
+   "reply": {
+    "time": 18.28,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759930701.6900675,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "cdn.example.net",
+   "id": 38,
+   "list_id": null,
+   "reply": {
+    "time": 17.86,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759930579.1552522,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "api.example-cloud.com",
+   "id": 37,
+   "list_id": null,
+   "reply": {
+    "time": 4.32,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759930574.8628614,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.10",
+    "name": "living-room-tv"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 36,
+   "list_id": 1,
+   "reply": {
+    "time": 11.71,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759930247.3141472,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-tracker.net",
+   "id": 35,
+   "list_id": null,
+   "reply": {
+    "time": 12.73,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759930133.502697,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "adserver.example.org",
+   "id": 34,
+   "list_id": 1,
+   "reply": {
+    "time": 17.36,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759929962.0659485,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "adserver.example.org",
+   "id": 33,
+   "list_id": 1,
+   "reply": {
+    "time": 13.95,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759929639.8397112,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 32,
+   "list_id": 1,
+   "reply": {
+    "time": 1.77,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759929511.243538,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.10",
+    "name": "living-room-tv"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "pixel.example-track.net",
+   "id": 31,
+   "list_id": 1,
+   "reply": {
+    "time": 16.32,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759929072.308482,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "adserver.example.org",
+   "id": 30,
+   "list_id": 1,
+   "reply": {
+    "time": 2.94,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759928952.8610902,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 29,
+   "list_id": 1,
+   "reply": {
+    "time": 2.01,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759928866.0357788,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 28,
+   "list_id": null,
+   "reply": {
+    "time": 6.94,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759928133.9137492,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 27,
+   "list_id": null,
+   "reply": {
+    "time": 19.42,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759928076.014243,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "metrics.example-analytics.com",
+   "id": 26,
+   "list_id": null,
+   "reply": {
+    "time": 18.67,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759927952.080577,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "github.com",
+   "id": 25,
+   "list_id": null,
+   "reply": {
+    "time": 13.06,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759927833.533997,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-tracker.net",
+   "id": 24,
+   "list_id": null,
+   "reply": {
+    "time": 2.07,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759926636.398979,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "github.com",
+   "id": 23,
+   "list_id": null,
+   "reply": {
+    "time": 8.95,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759926604.2025886,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 22,
+   "list_id": null,
+   "reply": {
+    "time": 2.93,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759926271.8146393,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 21,
+   "list_id": 1,
+   "reply": {
+    "time": 11.57,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759926235.5947242,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.10",
+    "name": "living-room-tv"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 20,
+   "list_id": null,
+   "reply": {
+    "time": 12.55,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759925825.223239,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "tracker.example-tracker.net",
+   "id": 19,
+   "list_id": 1,
+   "reply": {
+    "time": 5.23,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759925823.567184,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 18,
+   "list_id": null,
+   "reply": {
+    "time": 7.27,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759925651.1014643,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 17,
+   "list_id": 1,
+   "reply": {
+    "time": 10.97,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759925206.3866515,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "tracker.example-tracker.net",
+   "id": 16,
+   "list_id": 1,
+   "reply": {
+    "time": 5.59,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759924973.8499465,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-tracker.net",
+   "id": 15,
+   "list_id": null,
+   "reply": {
+    "time": 0.03,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759924634.1703713,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.10",
+    "name": "living-room-tv"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 14,
+   "list_id": null,
+   "reply": {
+    "time": 5.69,
+    "type": "IP"
+   },
+   "status": "DENYLIST",
+   "time": 1759924188.8219247,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "metrics.example-analytics.com",
+   "id": 13,
+   "list_id": null,
+   "reply": {
+    "time": 5.03,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759924144.064804,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 12,
+   "list_id": null,
+   "reply": {
+    "time": 10.25,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759923500.0751166,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "api.example-cloud.com",
+   "id": 11,
+   "list_id": null,
+   "reply": {
+    "time": 12.83,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759923426.6795964,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 10,
+   "list_id": null,
+   "reply": {
+    "time": 6.08,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759923027.022494,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 9,
+   "list_id": null,
+   "reply": {
+    "time": 18.03,
+    "type": "IP"
+   },
+   "status": "DENYLIST",
+   "time": 1759922046.9210575,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 8,
+   "list_id": 1,
+   "reply": {
+    "time": 0.79,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759921781.0830033,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-ads.com",
+   "id": 7,
+   "list_id": 1,
+   "reply": {
+    "time": 16.82,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759921350.0066068,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "github.com",
+   "id": 6,
+   "list_id": null,
+   "reply": {
+    "time": 19.93,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759921158.5374763,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 5,
+   "list_id": 1,
+   "reply": {
+    "time": 18.83,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759920932.3956335,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.11",
+    "name": "alice-laptop"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 4,
+   "list_id": null,
+   "reply": {
+    "time": 18.74,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759920624.4472277,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.13",
+    "name": "smart-fridge"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "telemetry.smart-fridge.example",
+   "id": 3,
+   "list_id": 1,
+   "reply": {
+    "time": 3.02,
+    "type": "IP"
+   },
+   "status": "GRAVITY",
+   "time": 1759920534.0155005,
+   "type": "A",
+   "upstream": null
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "example.com",
+   "id": 2,
+   "list_id": null,
+   "reply": {
+    "time": 18.03,
+    "type": "IP"
+   },
+   "status": "FORWARDED",
+   "time": 1759920201.0904057,
+   "type": "A",
+   "upstream": "192.0.2.53#53"
+  },
+  {
+   "client": {
+    "ip": "192.0.2.12",
+    "name": "kids-tablet"
+   },
+   "cname": null,
+   "dnssec": "UNKNOWN",
+   "domain": "ads.example-tracker.net",
+   "id": 1,
+   "list_id": null,
+   "reply": {
+    "time": 11.5,
+    "type": "IP"
+   },
+   "status": "CACHE",
+   "time": 1759920124.3675656,
+   "type": "A",
+   "upstream": null
+  }
+ ]
+}

@@ -1,0 +1,74 @@
+{
+ "history": [
+  {
+   "blocked": 4,
+   "cached": 5,
+   "forwarded": 10,
+   "timestamp": 1759964000.5,
+   "total": 20
+  },
+  {
+   "blocked": 5,
+   "cached": 5,
+   "forwarded": 10,
+   "timestamp": 1759967600.5,
+   "total": 21
+  },
+  {
+   "blocked": 6,
+   "cached": 5,
+   "forwarded": 10,
+   "timestamp": 1759971200.5,
+   "total": 22
+  },
+  {
+   "blocked": 7,
+   "cached": 5,
+   "forwarded": 10,
+   "timestamp": 1759974800.5,
+   "total": 23
+  },
+  {
+   "blocked": 8,
+   "cached": 5,
+   "forwarded": 10,
+   "timestamp": 1759978400.5,
+   "total": 24
+  },
+  {
+   "blocked": 9,
+   "cached": 5,
+   "forwarded": 10,
+   "timestamp": 1759982000.5,
+   "total": 25
+  },
+  {
+   "blocked": 10,
+   "cached": 5,
+   "forwarded": 10,
+   "timestamp": 1759985600.5,
+   "total": 26
+  },
+  {
+   "blocked": 11,
+   "cached": 5,
+   "forwarded": 10,
+   "timestamp": 1759989200.5,
+   "total": 27
+  },
+  {
+   "blocked": 12,
+   "cached": 5,
+   "forwarded": 10,
+   "timestamp": 1759992800.5,
+   "total": 28
+  },
+  {
+   "blocked": 13,
+   "cached": 5,
+   "forwarded": 10,
+   "timestamp": 1759996400.5,
+   "total": 29
+  }
+ ]
+}

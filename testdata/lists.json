@@ -1,0 +1,89 @@
+{
+ "lists": [
+  {
+   "abp_entries": 0,
+   "address": "https://lists.example.org/pro.txt",
+   "comment": "Main list",
+   "date_added": 1752224000,
+   "date_modified": 1752224000,
+   "date_updated": 1759913600,
+   "enabled": true,
+   "groups": [
+    0
+   ],
+   "id": 1,
+   "invalid_domains": 12,
+   "number": 150000,
+   "status": 1,
+   "type": "block"
+  },
+  {
+   "abp_entries": 0,
+   "address": "https://lists.example.org/stale.txt",
+   "comment": "Old list",
+   "date_added": 1742720000,
+   "date_modified": 1742720000,
+   "date_updated": 1757408000,
+   "enabled": true,
+   "groups": [
+    0
+   ],
+   "id": 2,
+   "invalid_domains": 0,
+   "number": 20000,
+   "status": 2,
+   "type": "block"
+  },
+  {
+   "abp_entries": 0,
+   "address": "https://lists.example.org/broken.txt",
+   "comment": "Dead URL",
+   "date_added": 1751360000,
+   "date_modified": 1751360000,
+   "date_updated": 1756544000,
+   "enabled": true,
+   "groups": [
+    0
+   ],
+   "id": 3,
+   "invalid_domains": 0,
+   "number": 0,
+   "status": 3,
+   "type": "block"
+  },
+  {
+   "abp_entries": 0,
+   "address": "https://lists.example.org/disabled.txt",
+   "comment": "Turned off",
+   "date_added": 1751360000,
+   "date_modified": 1755680000,
+   "date_updated": 1755680000,
+   "enabled": false,
+   "groups": [
+    0
+   ],
+   "id": 4,
+   "invalid_domains": 0,
+   "number": 5000,
+   "status": 1,
+   "type": "block"
+  },
+  {
+   "abp_entries": 0,
+   "address": "https://lists.example.org/messy.txt",
+   "comment": "Many invalid",
+   "date_added": 1754816000,
+   "date_modified": 1754816000,
+   "date_updated": 1759827200,
+   "enabled": true,
+   "groups": [
+    0
+   ],
+   "id": 5,
+   "invalid_domains": 800,
+   "number": 1000,
+   "status": 1,
+   "type": "block"
+  }
+ ]
+}

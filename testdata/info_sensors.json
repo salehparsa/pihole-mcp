@@ -1,0 +1,7 @@
+{
+ "sensors": {
+  "cpu_temp": 52.3,
+  "hot_limit": 80.0,
+  "unit": "C"
+ }
+}

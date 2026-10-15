@@ -1,0 +1,49 @@
+{
+ "clients": [
+  {
+   "client": "192.0.2.10",
+   "comment": null,
+   "groups": [
+    0
+   ],
+   "id": 1,
+   "name": "living-room-tv"
+  },
+  {
+   "client": "192.0.2.11",
+   "comment": null,
+   "groups": [
+    0
+   ],
+   "id": 2,
+   "name": "alice-laptop"
+  },
+  {
+   "client": "192.0.2.12",
+   "comment": null,
+   "groups": [
+    0
+   ],
+   "id": 3,
+   "name": "kids-tablet"
+  },
+  {
+   "client": "192.0.2.13",
+   "comment": null,
+   "groups": [
+    0
+   ],
+   "id": 4,
+   "name": "smart-fridge"
+  },
+  {
+   "client": "192.0.2.14",
+   "comment": null,
+   "groups": [
+    0
+   ],
+   "id": 5,
+   "name": "old-camera"
+  }
+ ]
+}

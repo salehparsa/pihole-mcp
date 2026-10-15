@@ -1,0 +1,26 @@
+{
+ "ftl": {
+  "%cpu": 0.5,
+  "%mem": 1.2,
+  "database": {
+   "clients": 5,
+   "domains": {
+    "allowed": {
+     "enabled": 2,
+     "total": 2
+    },
+    "denied": {
+     "enabled": 1,
+     "total": 1
+    }
+   },
+   "gravity": 176000,
+   "groups": 1,
+   "lists": 5
+  },
+  "pid": 123,
+  "privacy_level": 0,
+  "query_frequency": 0.1,
+  "uptime": 864000
+ }
+}

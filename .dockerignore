@@ -1,0 +1,13 @@
+.git
+.github
+bin
+dist
+docs
+deploy
+testdata
+scripts
+*.md
+.env
+secrets
+config.yaml
+!THIRD_PARTY_LICENSES.md

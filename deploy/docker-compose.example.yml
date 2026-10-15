@@ -1,0 +1,40 @@
+# Example: Pi-hole + pihole-mcp on one Docker network.
+# Secrets live in files that are NOT committed:
+#   ./secrets/pihole_app_password   (created in the Pi-hole UI: Settings → Web interface/API → Configure app password)
+#   ./secrets/mcp_token             (generate with: openssl rand -hex 32)
+#   ./secrets/confirm_secret        (optional, generate the same way; makes confirm tokens survive restarts)
+services:
+  pihole:
+    image: pihole/pihole:latest
+    # ... your Pi-hole service ...
+    networks: [dns]
+
+  pihole-mcp:
+    image: ghcr.io/salehparsa/pihole-mcp:latest   # pin a version tag in real deployments
+    restart: unless-stopped
+    environment:
+      PIHOLE_URL: http://pihole            # the service name on the shared network
+      PIHOLE_APP_PASSWORD_FILE: /run/secrets/pihole_app_password
+      MCP_TOKEN_FILE: /run/secrets/mcp_token
+      PIHOLE_MCP_TIMEZONE: Europe/London   # for hour/day bucketing in reports
+      # PIHOLE_MCP_ALLOW_WRITES: "true"    # uncomment to enable the (two-step) change tools
+      # PIHOLE_MCP_CONFIRM_SECRET_FILE: /run/secrets/confirm_secret
+    secrets: [pihole_app_password, mcp_token]
+    ports:
+      - "192.0.2.10:8765:8765"           # publish on the LAN address only, never 0.0.0.0 on an exposed host
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+    healthcheck:
+      test: ["CMD", "/pihole-mcp", "healthcheck"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+    networks: [dns]
+
+secrets:
+  pihole_app_password: {file: ./secrets/pihole_app_password}
+  mcp_token: {file: ./secrets/mcp_token}
+
+networks:
+  dns: {}

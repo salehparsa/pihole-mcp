@@ -1,0 +1,46 @@
+{
+ "domains": [
+  {
+   "comment": "needed by app",
+   "date_added": 1759136000,
+   "date_modified": 1759136000,
+   "domain": "ads.example-tracker.net",
+   "enabled": true,
+   "groups": [
+    0
+   ],
+   "id": 1,
+   "kind": "exact",
+   "type": "allow",
+   "unicode": "ads.example-tracker.net"
+  },
+  {
+   "comment": "oops",
+   "date_added": 1759568000,
+   "date_modified": 1759568000,
+   "domain": ".*",
+   "enabled": true,
+   "groups": [
+    0
+   ],
+   "id": 2,
+   "kind": "regex",
+   "type": "allow",
+   "unicode": ".*"
+  },
+  {
+   "comment": "",
+   "date_added": 1759568000,
+   "date_modified": 1759568000,
+   "domain": "(\\.|^)example-ads\\.com$",
+   "enabled": true,
+   "groups": [
+    0
+   ],
+   "id": 3,
+   "kind": "regex",
+   "type": "deny",
+   "unicode": ""
+  }
+ ]
+}

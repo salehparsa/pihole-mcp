@@ -1,0 +1,35 @@
+# GoReleaser builds the standalone binaries and the GitHub Release. The
+# container image is built by .github/workflows/release.yml (docker buildx).
+version: 2
+project_name: pihole-mcp
+before:
+  hooks:
+    - go mod tidy
+builds:
+  - id: pihole-mcp
+    main: ./cmd/pihole-mcp
+    binary: pihole-mcp
+    env: [CGO_ENABLED=0]
+    flags: [-trimpath]
+    ldflags:
+      - -s -w -X main.version={{.Version}} -X main.commit={{.ShortCommit}} -X main.date={{.Date}}
+    goos: [linux, darwin, windows]
+    goarch: [amd64, arm64, arm]
+    goarm: ["7"]
+    ignore:
+      - {goos: windows, goarch: arm64}
+      - {goos: windows, goarch: arm}
+      - {goos: darwin, goarch: arm}
+archives:
+  - formats: [tar.gz]
+    format_overrides:
+      - {goos: windows, formats: [zip]}
+    files: [LICENSE, NOTICE, THIRD_PARTY_LICENSES.md, README.md, config.example.yaml]
+checksum:
+  name_template: checksums.txt
+changelog:
+  sort: asc
+  filters:
+    exclude: ["^docs:", "^test:", "^chore:"]
+release:
+  prerelease: auto

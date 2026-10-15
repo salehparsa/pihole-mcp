@@ -1,0 +1,17 @@
+name: Feature request
+description: Suggest a new tool, analysis or option
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes: {label: What are you trying to find out or do?, description: "Describe the question you want an agent to answer, ideally with an example"}
+    validations: {required: true}
+  - type: textarea
+    id: api
+    attributes: {label: Pi-hole API support, description: "Which Pi-hole v6 API endpoints would this use (see https://pi.hole/api/docs)?"}
+  - type: checkboxes
+    id: writes
+    attributes:
+      label: Safety
+      options:
+        - label: This would change Pi-hole (and so needs the preview/confirm flow)

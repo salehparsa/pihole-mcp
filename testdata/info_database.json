@@ -1,0 +1,5 @@
+{
+ "queries": 900000,
+ "size": 150000000,
+ "sqlite_version": "3.46.0"
+}

@@ -1,0 +1,16 @@
+{
+ "forwarded_queries": 100,
+ "total_queries": 200,
+ "upstreams": [
+  {
+   "count": 100,
+   "ip": "192.0.2.53",
+   "name": null,
+   "port": 53,
+   "statistics": {
+    "response": 0.02,
+    "variance": 0.001
+   }
+  }
+ ]
+}

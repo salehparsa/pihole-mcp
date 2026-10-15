@@ -1,0 +1,89 @@
+{
+ "devices": [
+  {
+   "firstSeen": 1752224000,
+   "hwaddr": "00:00:5e:00:53:10",
+   "id": 1,
+   "interface": "eth0",
+   "ips": [
+    {
+     "ip": "192.0.2.10",
+     "lastSeen": 1759999900,
+     "name": "living-room-tv",
+     "nameUpdated": 1759999000
+    }
+   ],
+   "lastQuery": 1759999880,
+   "macVendor": "ExampleTV Inc",
+   "numQueries": 500
+  },
+  {
+   "firstSeen": 1752224000,
+   "hwaddr": "00:00:5e:00:53:11",
+   "id": 2,
+   "interface": "eth0",
+   "ips": [
+    {
+     "ip": "192.0.2.11",
+     "lastSeen": 1759999900,
+     "name": "alice-laptop",
+     "nameUpdated": 1759999000
+    }
+   ],
+   "lastQuery": 1759999880,
+   "macVendor": "Example Computers",
+   "numQueries": 500
+  },
+  {
+   "firstSeen": 1752224000,
+   "hwaddr": "00:00:5e:00:53:12",
+   "id": 3,
+   "interface": "eth0",
+   "ips": [
+    {
+     "ip": "192.0.2.12",
+     "lastSeen": 1759999900,
+     "name": "kids-tablet",
+     "nameUpdated": 1759999000
+    }
+   ],
+   "lastQuery": 1759999880,
+   "macVendor": "Example Mobile",
+   "numQueries": 500
+  },
+  {
+   "firstSeen": 1752224000,
+   "hwaddr": "00:00:5e:00:53:13",
+   "id": 4,
+   "interface": "eth0",
+   "ips": [
+    {
+     "ip": "192.0.2.13",
+     "lastSeen": 1759999900,
+     "name": "smart-fridge",
+     "nameUpdated": 1759999000
+    }
+   ],
+   "lastQuery": 1759999880,
+   "macVendor": "Example Appliances",
+   "numQueries": 500
+  },
+  {
+   "firstSeen": 1752224000,
+   "hwaddr": "00:00:5e:00:53:14",
+   "id": 5,
+   "interface": "eth0",
+   "ips": [
+    {
+     "ip": "192.0.2.14",
+     "lastSeen": 1759999900,
+     "name": "old-camera",
+     "nameUpdated": 1759999000
+    }
+   ],
+   "lastQuery": 1758272000,
+   "macVendor": "Example Cameras",
+   "numQueries": 3
+  }
+ ]
+}

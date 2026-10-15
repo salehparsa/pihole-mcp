@@ -1,0 +1,14 @@
+/bin/
+/dist/
+/pihole-mcp
+*.test
+*.out
+coverage.*
+# live recordings are reviewed by hand before anything is copied into testdata/
+/testdata/recorded/
+# local secrets and overrides
+.env
+/secrets/
+config.yaml
+*.local.yaml
+.DS_Store

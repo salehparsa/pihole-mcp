@@ -1,0 +1,13 @@
+pihole-mcp
+Copyright 2026 The pihole-mcp contributors
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This project is an independent, unofficial tool. It is NOT affiliated with,
+endorsed by, or sponsored by the Pi-hole project or its maintainers.
+"Pi-hole" is a trademark of Pi-hole LLC; it is used here only to describe
+compatibility with the Pi-hole API.
+
+It uses third-party open-source software; see THIRD_PARTY_LICENSES.md.
+Block lists referenced in the catalog belong to their respective authors and
+are not distributed with this software; each is subject to its own license.

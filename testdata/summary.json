@@ -1,0 +1,24 @@
+{
+ "clients": {
+  "active": 4,
+  "total": 5
+ },
+ "gravity": {
+  "domains_being_blocked": 176000,
+  "last_update": 1759913600
+ },
+ "queries": {
+  "blocked": 172,
+  "cached": 50,
+  "forwarded": 100,
+  "frequency": 0.1,
+  "percent_blocked": 0,
+  "replies": {},
+  "status": {},
+  "total": 360,
+  "types": {
+   "A": 360
+  },
+  "unique_domains": 12
+ }
+}

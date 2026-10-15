@@ -1,0 +1,12 @@
+{
+ "host": {
+  "uname": {
+   "domainname": "(none)",
+   "machine": "aarch64",
+   "nodename": "pihole-test",
+   "release": "6.1",
+   "sysname": "Linux",
+   "version": "#1"
+  }
+ }
+}

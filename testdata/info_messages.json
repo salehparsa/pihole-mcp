@@ -1,0 +1,11 @@
+{
+ "messages": [
+  {
+   "html": "dnsmasq: warning example",
+   "id": 1,
+   "plain": "dnsmasq: warning example",
+   "timestamp": 1759996400.25,
+   "type": "DNSMASQ_WARN"
+  }
+ ]
+}

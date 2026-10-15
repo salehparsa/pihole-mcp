@@ -1,0 +1,29 @@
+{
+  "mcpServers": {
+    "pihole-docker-stdio": {
+      "command": "docker",
+      "args": [
+        "run", "-i", "--rm",
+        "-e", "MCP_TRANSPORT=stdio",
+        "-e", "PIHOLE_URL=http://pi.hole",
+        "-e", "PIHOLE_APP_PASSWORD",
+        "ghcr.io/salehparsa/pihole-mcp:latest"
+      ],
+      "env": { "PIHOLE_APP_PASSWORD": "<app password>" }
+    },
+    "pihole-binary-stdio": {
+      "command": "/usr/local/bin/pihole-mcp",
+      "args": ["--transport", "stdio"],
+      "env": {
+        "PIHOLE_URL": "http://pi.hole",
+        "PIHOLE_APP_PASSWORD": "<app password>",
+        "PIHOLE_MCP_TIMEZONE": "Europe/London"
+      }
+    },
+    "pihole-remote-http": {
+      "command": "npx",
+      "args": ["-y", "mcp-remote", "http://pihole-mcp.lan:8765/mcp", "--header", "Authorization: Bearer ${MCP_TOKEN}"],
+      "env": { "MCP_TOKEN": "<token>" }
+    }
+  }
+}

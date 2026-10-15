@@ -1,0 +1,32 @@
+name: Bug report
+description: Something does not work as documented
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please **do not paste secrets** (app password, MCP token, session IDs) or real network data. Run `pihole-mcp config print` (secrets are redacted) if you need to share configuration.
+  - type: input
+    id: version
+    attributes: {label: pihole-mcp version, description: "Output of `pihole-mcp version`"}
+    validations: {required: true}
+  - type: input
+    id: pihole
+    attributes: {label: Pi-hole versions, description: "Core / FTL / Web, e.g. 6.4.3 / 6.7.1 / 6.4"}
+    validations: {required: true}
+  - type: dropdown
+    id: transport
+    attributes:
+      label: Transport
+      options: [stdio, http, both]
+    validations: {required: true}
+  - type: textarea
+    id: what
+    attributes: {label: What happened, description: "Tool called, arguments, and the result or error"}
+    validations: {required: true}
+  - type: textarea
+    id: expected
+    attributes: {label: What you expected}
+  - type: textarea
+    id: logs
+    attributes: {label: Logs (LOG_LEVEL=debug), render: text}

@@ -1,0 +1,40 @@
+# pihole-mcp configuration. Everything here can also be set through environment
+# variables or flags (flags > environment > this file > defaults).
+# Validate with:  pihole-mcp config validate --config config.yaml
+# See docs/configuration.md for every field.
+
+instances:                  # one or more Pi-holes; the first is the default
+  - name: home              # used as the `instance` tool argument
+    url: http://pi.hole     # env shortcut (first instance only): PIHOLE_URL
+    # Create an app password in the Pi-hole web UI: Settings → Web interface / API → Configure app password.
+    password_file: /run/secrets/pihole_app_password   # or `password:`; env: PIHOLE_APP_PASSWORD / PIHOLE_APP_PASSWORD_FILE
+    tls_skip_verify: false  # only for self-signed Pi-hole HTTPS
+    timeout: 10s
+
+server:
+  transport: stdio          # stdio | http                  env: MCP_TRANSPORT
+  listen: ":8765"           # http only                     env: MCP_LISTEN
+  path: /mcp                #                               env: MCP_PATH
+  auth_token_file: ""       # REQUIRED for http             env: MCP_TOKEN / MCP_TOKEN_FILE
+  tls_cert_file: ""         # optional native TLS           env: MCP_TLS_CERT_FILE
+  tls_key_file: ""          #                               env: MCP_TLS_KEY_FILE
+  allowed_origins: []       # browser Origins allowed; native clients send none   env: MCP_ALLOWED_ORIGINS (comma separated)
+
+writes:                     # tools that CHANGE Pi-hole. Off by default.
+  enabled: false            #                               env: PIHOLE_MCP_ALLOW_WRITES
+  confirm_secret_file: ""   # HMAC secret for preview/confirm tokens; random per process if unset
+  confirm_ttl: 5m           #                               env: PIHOLE_MCP_CONFIRM_TTL
+  allowed_tools: []         # optional allowlist, e.g. [add_domain_rule, update_gravity]   env: PIHOLE_MCP_ALLOWED_TOOLS
+
+analysis:
+  timezone: UTC             # IANA zone for periods and hour/day bucketing   env: PIHOLE_MCP_TIMEZONE (or TZ)
+  default_period: 24h
+  max_scan: 50000           # cap on query-log entries examined per call
+  stale_list_days: 7        # block lists not updated for this long are flagged
+  high_block_ratio: 0.5     # devices above this share of blocked queries are flagged
+  ad_patterns_file: ""      # extra ad/tracker heuristics, one regex per line ("# replace-defaults" on line 1 replaces the built-ins)
+  catalog_file: ""          # JSON file replacing the embedded block-list catalog
+
+log:
+  level: info               # debug | info | warn | error   env: LOG_LEVEL
+  format: text              # text | json                   env: LOG_FORMAT
